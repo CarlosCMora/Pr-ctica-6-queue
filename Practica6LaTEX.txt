@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Práctica 6 queue}
+\author{\huge{\texttt{Castañeda Mora Carlos\\\texttt{
+\huge{González Bretón Arturo\\\texttt{
+\huge{Sicilia Pablo}}}}}}}
+
+\date{29 Agosto 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\justify
+Una cola es una estructura de datos, caracterizada por ser una secuencia de elementos en la que la operación de inserción push se realiza por un extremo y la operación de extracción pop por el otro. También se le llama estructura FIFO (del inglés First In First Out), debido a que el primer elemento en entrar será también el primero en salir.
+
+Las colas se utilizan en sistemas informáticos, transportes y operaciones de investigación (entre otros), dónde los objetos, personas o eventos son tomados como datos que se almacenan y se guardan mediante colas para su posterior procesamiento. Este tipo de estructura de datos abstracta se implementa en lenguajes orientados a objetos mediante clases, en forma de listas enlazadas.
+
+La particularidad de una estructura de datos de cola es el hecho de que sólo podemos acceder al primer y al último elemento de la estructura. Así mismo, los elementos sólo se pueden eliminar por el principio y sólo se pueden añadir por el final de la cola.
+
+
+
+\section{\huge{\textbf{Desarrollo}}}
+
+\paragraph{\Large{1) Implementación del menu principal.\\}}
+\includegraphics[Width=11cm,height=6cm]{main1.png}
+
+
+\paragraph{\Large{2)Implementación de la cola circular.\\}}
+\includegraphics[Width=11cm,height=6cm]{main2.png}
+
+
+\paragraph{\Large{3)Implementación de la bicola parte 1.\\}}
+\includegraphics[Width=11cm,height=6cm]{main3.png}
+
+
+\paragraph{\Large{4)Implementación de la bicola parte 2 y final.\\}}
+\includegraphics[Width=11cm,height=6cm]{main4.png}
+
+
+
+
+\section{Conclusion}
+\justify
+
+En esta práctica aplicamos colas dobles por lo que podemos decir que se cumplió el objetivo gracias a que el ejercicio realizado con base en los archivos del profesor facilitaron el entendimiento de la práctica y el concepto de "biqueue". Pablo
+
+Durante esta práctica observamos la implementación de una biqueue a partir de una lista. Trabajamos implementando bicolas y una cola circular, a pesar de que no le dimos una aplicación fuera de almacenar numeros, comprendimos su uso. Carlos
+\section{Bibliografía}
+https://www.ecured.cu/Cola_(Estructura_de_datos)
+
+https://es.wikipedia.org/wiki/N%C3%BAcleo_Linux
+
+\end{document}
